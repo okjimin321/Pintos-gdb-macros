@@ -1,14 +1,14 @@
 # Pintos GDB Macros
 > Tools for Efficient Kernel Debugging in Pintos
 
-![Pintos 교재 표지](./Pintos로_배우는_운영체제_구조와_원리_표지.png)
+<img src="./Pintos로_배우는_운영체제_구조와_원리_표지.png" width="400"/>
 
 ## Overview
 Pintos는 커널 레벨에서 동작하기 때문에 일반적인 printf 기반 디버깅만으로는  
 thread 상태나 스케줄링 흐름을 파악하기 어렵습니다.
 
-이 프로젝트는 이러한 문제를 해결하기 위해  
-**GDB Macros를 직접 설계하여 디버깅 과정을 자동화**한 도구입니다.
+본 프로젝트는 Pintos 교재를 집필하는 과정에서  
+**커널 디버깅의 한계를 개선하기 위해 GDB Macros를 직접 설계하고 교재에 통합한 결과물**입니다.
 
 ---
 
